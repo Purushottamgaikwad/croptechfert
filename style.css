@@ -2,11 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: poppins;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
+
+
 nav{
+    padding: 0px 7vw 0px 7vw;
     display: inline-flex;
     justify-content:space-between;
     align-items: center;
@@ -38,7 +43,14 @@ nav ul li{
     list-style: none;
     padding: 10px;
     font-size: 1.3vw;
-    color: rgb(195, 199, 202);
+    color: rgb(255, 255, 255);
+
+}
+
+nav ul li:hover{
+    color: white;
+    background-color: #000;
+    border-radius: 15px;
 
 }
 
@@ -57,7 +69,7 @@ header {
     background-size:cover; 
     background-position: center;
     height: 70vh; 
-    padding: 1px 0;
+    padding: 0px 7vw 0px 7vw;
     color: white; 
     text-align: center;
     position: relative;
@@ -87,8 +99,8 @@ header h4 {
 }
 
 .product-types {
-    padding: 20px 20px 0 20px;
-    height: 30vh;
+    padding: 5vw 7vw 5vw 7vw;
+    height: 50vh;
     display: flex;
     justify-content: space-between; 
     gap: 20px; 
@@ -118,12 +130,12 @@ header h4 {
     overflow: hidden; /* Hide overflow */
     white-space: nowrap; /* Prevent wrapping */
     background-color: #f4f4f4;
-    padding: 20px 0;
+    padding: 2vw 7vw 3vw 7vw;
     
 }
 
 .slider-container h3{
-    font-size: 50px;
+    font-size: 5vw;
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
@@ -192,14 +204,14 @@ header h4 {
     display: grid;
     justify-content: center;
     align-items: center;
-    padding: 0 25vw 0 25vw;
-    height: 50vh;
+    padding: 3vw 7vw 3vw 7vw;
+    height: auto;
     width: 100%;
     /* border: 2px solid black; */
 }
 
 .aboutus h6{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* border: 2px solid black; */
     font-size: 30px;
     padding-bottom: 20px;
@@ -214,6 +226,8 @@ header h4 {
 
 
 .inquiry{
+    padding: 0px 7vw 0px 7vw;
+
     height: auto;
     width: 100%;
     display: grid;
@@ -264,10 +278,11 @@ header h4 {
     border: 2px solid rgba(197,159,40,255);
     border-radius: 50px;
     font-size: 15px;
+    color: #f4f4f4;
 }
 
 .inquiry button:hover{
-    background-color: darkgreen;
+    background-color: rgb(0, 0, 0);
 }
 
 .inquiry textarea{
@@ -279,7 +294,7 @@ header h4 {
 .footer {
     background-color: #2c5a26; /* Dark green background */
     color: white; /* White text */
-    padding: 20px 0; /* Add padding */
+    padding: 0px 7vw 0px 7vw;
     text-align: center; /* Center-align content */
     font-size: 14px; /* Adjust font size */
 }

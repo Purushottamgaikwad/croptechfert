@@ -94,7 +94,7 @@
 
 @media (max-width:360px){
     nav{
-        height: 4vh;
+        height: 8vh;
     }
 
     nav h1{
@@ -116,7 +116,7 @@
         /* border: 2px solid black; */
         list-style: none;
         /* padding: 5px; */
-        font-size: 2vw;
+        font-size: 2.5vw;
         font: bold;
         color: rgb(195, 199, 202);
     

@@ -2,18 +2,15 @@
     nav{
         height: 6vh;
     }
-    
     nav h1{
         color: aliceblue;
         margin: 15px;
         font-size: 2vw;
     }
-
     nav ul{
         margin: 30px;
     }
-
-    nav ul li{
+    nav ul li a{
         list-style: none;
         padding: 10px;
         font-size: 1.5vw;
@@ -23,12 +20,28 @@
     header {
         height: 40vh; 
     }
+    header h2 {
+        font-size: 8vw;
+    
+    }
+    
+    header h4 {
+        font-size: 3vw;
+    }
 
 
 /* -------------------------------------------------------------------------------- */
     .aboutus p{
      text-align: center;
         font-size: 20px;
+    }
+/* -------------------------------------------------------------------------------- */
+.all-products button{
+    font-size: 2vw;
+   
+}
+
+
 
 }
 
@@ -36,8 +49,6 @@
 
 
 
-
-}
 
 
 @media (max-width:620px ) and (min-width: 360px){
@@ -59,20 +70,23 @@
     
     }
 
-
-
-    nav ul li{
+    nav ul li a{
         list-style: none;
         padding: 5px;
         font-size: 2vw;
-        color: rgb(195, 199, 202);
+        color: rgb(255, 255, 255);
     
     }
 /* -------------------------------------------------------------------------------- */
     header {
         height: 40vh; 
     }
+    /* -------------------------------------------------------------------------------- */
 
+    .all-products button{
+        font-size: 2vw;
+       
+    }
 }
 
 
@@ -80,33 +94,37 @@
 
 @media (max-width:360px){
     nav{
-        height: 3vh;
+        height: 4vh;
     }
 
     nav h1{
+        display: flex;
         color: aliceblue;
-        margin: 5px;
-        font-size: 2vw;
+        margin: 2px;
+        font-size: 1.5vw;
     }
     
     nav ul{
+        padding: 0;
         font-style: none;
         margin: 10px;
     
     }
 
 
-    nav ul li{
+    nav ul li a{
+        /* border: 2px solid black; */
         list-style: none;
-        padding: 5px;
+        /* padding: 5px; */
         font-size: 2vw;
+        font: bold;
         color: rgb(195, 199, 202);
     
     }
 
  /* -------------------------------------------------------------------------------- */
     header {
-        height: 10vh; 
+        height: 1vh; 
     }
 
     .aboutus p{

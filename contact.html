@@ -7,6 +7,7 @@
 </head>
 <body>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="responsivestyle.css"><link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -15,11 +16,11 @@
     
 </head>
 <body>
-    
+    <div class="page-conatiner">
     <nav>
         <h1><i class="fa-solid fa-tractor"></i> Crop Tech Fert, Nashik </h1>
         <ul>
-            <li><a href="#hero">Home</a></li>
+            <li><a href="/croptechfert/#hero">Home</a></li>
             <li><a href="#products">Products</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#inquiry">Inquiry</a></li>
@@ -49,17 +50,42 @@
         <textarea name="message" class="form-control" rows="4" required=""></textarea>        <button type="submit"> SEND INQUIRY</button>
     </div>    
 
-    <footer class="footer" id="contact">
+    <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2023 Crop Tech Fert. All rights reserved.</p>
-            <ul class="footer-links">
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
+            <!-- Map Section -->
+            <div class="footer-section map-section">
+                <h3>Our Headquarters</h3>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3749.522354473047!2d73.76782397594906!3d19.98657987945052!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb61df8834f1%3A0xcffb70140fee7b86!2sRD%20CIRCLE!5e0!3m2!1sen!2sin!4v1739014023331!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+    
+            <!-- Quick Links Section -->
+            <div class="footer-section quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/croptechfert/#products">Products</a></li>
+                    <li><a href="#">Technical Support</a></li>
+                    <li><a href="#">Dealer Network</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <!-- Contact Information Section -->
+            <div class="footer-section contact-info">
+                <h3>Contact</h3>
+                <p><i class="fas fa-map-pin"></i> 834, Roongta Futurex, Near RD Circle, Nashik, 422008.</p><br>
+                <p<i class="fas fa-phone-alt"></i> +91 9226799099</p><br>
+                <p><i class="fas fa-envelope"></i> support@croptechfert.com</p><br>
+            </div>
+        </div>
+    
+        <!-- Copyright Section -->
+        <div class="copyright">
+            <p>&copy; 2025 CropTech Fert. All rights reserved.</p>
         </div>
     </footer>
-
+</div>
     <script src="index.js"></script> 
 </body>
 </html>

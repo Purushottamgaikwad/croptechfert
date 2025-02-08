@@ -17,15 +17,15 @@
     <nav>
         <h1><i class="fa-solid fa-tractor"></i> Crop Tech Fert, Nashik </h1>
         <ul>
-            <li>Home</li>
-            <li>Products</li>
-            <li>About</li>
-            <li>Inquiry</li>
-            <li>Contact</li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#inquiry">Inquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <hr class="nav">
-    <Header>
+    <Header id="hero">
         <div class="header-contain">
             <h2> Nourishing Crops, Sustaining Futures</h2>
             <h4>Advanced agricultural solutions for maximum yield</h4>
@@ -39,7 +39,7 @@
         <div class="product-types-items"><i class="fa-solid fa-globe"></i><h5>Global Standards</h5><p>Internationally certified products</p></div>
     </div>
 
-    <div class="slider-container">
+    <div class="slider-container" id="products">
         <h3>*** Our Products ***</h3>
         <div class="slider-track">
             <div class="slider-item"><img src="CT Nano 19.19.19- Croptech.png" alt=""> <h6> CT Nano 19.19.19 </h6><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus minus voluptas at dolores aspernatur. Illum, odio quo. Doloremque debitis officiis suscipit! Nulla iure placeat cupiditate, </p><button>view product</button> </div>
@@ -54,8 +54,9 @@
             <div class="slider-item"><img src="Maxifruit 00.12.45 - Croptech.png" alt=""><h6>Maxifruit 00.12.45</h6><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus minus voluptas at dolores aspernatur. Illum, odio quo. Doloremque debitis officiis suscipit! Nulla iure placeat cupiditate, </p><button>view product</button></div>
             <div class="slider-item"><img src="Shootup 10.40.00+zn1-Croptech.png" alt=""><h6>Shootup 10.40.00+zn1%</h6><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus minus voluptas at dolores aspernatur. Illum, odio quo. Doloremque debitis officiis suscipit! Nulla iure placeat cupiditate.</p><button>view product</button></div> <!-- <div class="slider-item">Product 5</div> -->
         </div>
+        <div class="all-products"><button>View all products</button></div>
     </div>
-        <div class="about">
+        <div class="about" id="about">
         <h2>About Crop tech</h2>
     <section class="about-us">
 
@@ -79,7 +80,7 @@
     </section>
 </div>
 
-    <div class="inquiry">
+    <div class="inquiry" id="inquiry">
         <h4>Sending Inquiry</h4>
         <p>Full Name</p>
         <input type="text">
@@ -100,7 +101,7 @@
         <textarea name="message" class="form-control" rows="4" required=""></textarea>        <button type="submit"> SEND INQUIRY</button>
     </div>    
 
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="footer-content">
             <p>&copy; 2023 Crop Tech Fert. All rights reserved.</p>
             <ul class="footer-links">
@@ -110,5 +111,7 @@
             </ul>
         </div>
     </footer>
+
+    <script src="index.js"></script> 
 </body>
 </html>

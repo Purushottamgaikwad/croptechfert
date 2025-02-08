@@ -7,7 +7,9 @@
     font-style: normal;
 
 }
-
+html {
+    scroll-behavior: smooth;
+}
 
 
 nav {
@@ -44,26 +46,41 @@ nav ul{
 
 
 nav ul li{
-    height: 100%;
     list-style: none;
-    padding: 10px;
-    font-size: 1vw;
     color: rgb(255, 255, 255);
+
     /* border: 2px solid black; */
 
 }
 
-nav ul li:hover{
-    background-color: #075226;
-    color: rgb(216, 211, 211);
 
+nav ul li a {
+    height: 100%;
+    padding: 10px;
+    font-size: 1vw;
+    color: rgb(255, 255, 255);
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent (or set a specific color) */
+    font-size: 1vw; /* Set font size */
+    transition: color 0.4s ease; /* Smooth color transition on hover */
+}
+
+nav ul li:hover {
+    background-color: #075226;
+
+    color: #1baa1e; /* Change color on hover (example: blue) */
+}
+
+nav ul li a:hover{
+    background-color: #075226;
+    color:  #1baa1e;
 }
 
 .nav {
     height: 3px; /* Thickness of the line */
     background-color: rgb(255, 221, 69); /* Color of the line */
-    margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    margin-bottom: 200px;
     border: none; /* Remove default border */
     position: fixed; /* Stick to the viewport */
     width: 100%; /* Span the entire width */
@@ -71,7 +88,8 @@ nav ul li:hover{
 }
 
 header {
-    margin: 0;
+    scroll-margin-top: 50px;
+        margin: 0;
     background-image: url(jan-huber-JScBEaAOejw-unsplash.jpg);
     background-color: #333; /* Fallback color */
     display: grid;
@@ -154,11 +172,17 @@ header h4 {
 
 
 .slider-container {
+    scroll-behavior: smooth;
+    scroll-margin-top: 20vw;
     width: 100%;
+    overflow-x: auto;
     overflow: hidden; /* Hide overflow */
+    -webkit-overflow-scrolling: touch; /* Smooth on mobile */
+
     white-space: nowrap; /* Prevent wrapping */
     background-color: #f4f4f4;
     padding: 2vw 7vw 3vw 7vw;
+    padding-top: 80px;
     
 }
 
@@ -218,6 +242,7 @@ header h4 {
     overflow-wrap: break-word;
     white-space: normal; /* Ensure text wraps */
 }
+
 /* Keyframes for sliding animation */
 @keyframes slide {
     0% {
@@ -227,6 +252,30 @@ header h4 {
         transform: translateX(-50%); /* Move track by half its width */
     }
 }
+
+.all-products{
+    margin:2vw ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.all-products button{
+    font-size: 1.2vw;
+    width: 200px;
+    height: 50px;
+    background-color: #038d3c;
+    border-radius: 25px;
+    color: white;
+}
+.all-products button:hover{
+  
+
+    border-radius: 25px;
+    background-color: #075226;
+    color:  #1baa1e;
+}
+
 
 
 .about-us {

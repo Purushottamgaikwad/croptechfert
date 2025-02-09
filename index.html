@@ -14,26 +14,43 @@
 </head>
 <body>
 
-       <nav>
+    <nav>
         <ul class="sidebar">
-            <li onclick="hidesidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li onclick="hidesidebar()">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed">
+                        <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                    </svg>
+                </a>
+            </li>
             <li onclick="hidesidebar()"><a href="#hero">Home</a></li>
             <li onclick="hidesidebar()"><a href="#products">Products</a></li>
             <li onclick="hidesidebar()"><a href="#about">About</a></li>
-            <li onclick="hidesidebar()"><a href="#testimonial">testimonial</a></li>
+            <li onclick="hidesidebar()"><a href="#testimonial">Testimonial</a></li>
             <li onclick="hidesidebar()"><a href="contact.html">Contact</a></li>
-         </ul>
-
+        </ul>
+    
         <ul>
-            <li><a href="#hero">company</a></li>
+            <li class="logo"><a href="/#hero">
+                <span class="crop">Crop</span><span class="tech">Tech</span>
+                <span class="tagline">Harvest The Best</span>
+            </a>
+            </li>
             <li class="hideOnMobile"><a href="#hero">Home</a></li>
             <li class="hideOnMobile"><a href="#products">Products</a></li>
             <li class="hideOnMobile"><a href="#about">About</a></li>
-            <li class="hideOnMobile"><a href="#testimonial">testimonial</a></li>
+            <li class="hideOnMobile"><a href="#testimonial">Testimonial</a></li>
             <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
-            <li class="menu-button" onclick="showsidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-         </ul>
-</nav>
+            <li class="menu-button" onclick="showsidebar()">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
     <hr class="nav">
     <Header id="hero">
         <div class="header-contain">

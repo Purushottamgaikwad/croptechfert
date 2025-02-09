@@ -58,6 +58,8 @@ nav a:hover{
 }
 
 nav li:first-child{
+    margin-left: 2vw;
+
     margin-right: auto;
 }
 
@@ -95,6 +97,45 @@ nav li:first-child{
 .sidebar li{
     width: 100%;
 }
+
+nav ul li:first-child a {
+    margin-left: 0.5vw;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bold; /* Optional: Make it bold */
+}
+nav ul li:first-child a:hover {
+   background-color: transparent;
+}
+
+.logo {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.crop {
+    color: #81f506; /* Green */
+    text-transform: capitalize;
+}
+
+.tech {
+    color: #41c3ff; /* Blue */
+    text-transform: capitalize;
+}
+
+.tagline {
+    color: rgba(255, 246, 246, 0.915);
+    font-style: italic;
+    font-size: 12px;
+    padding-top: 8px;
+    margin-left: 10px;
+}
+
 
 @media(max-width:800px){
     .hideOnMobile{

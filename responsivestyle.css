@@ -103,11 +103,15 @@
     
     }
 
+    nav a{
+     
+        padding: 0 5px;
+       
+   }
 
     nav ul li a{
-        /* border: 2px solid black; */
         list-style: none;
-        /* padding: 5px; */
+        padding: 0 13px 0 0;        
         font-size: 12px;
         font: bold;
         color: rgb(255, 255, 255);
@@ -115,7 +119,9 @@
     }
 
  /* -------------------------------------------------------------------------------- */
-    header {
+    
+ header {
+    padding: 26px 7vw 0vw 7vw;
         height: 1vh; 
     }
 
